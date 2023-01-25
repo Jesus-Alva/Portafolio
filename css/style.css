@@ -67,11 +67,11 @@ html{
 .inicio {
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
     url(../img/coding-table.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 60rem;
     color: #fff;
     display: flex;
-    align-items: center;
 }
 .inicio .contenedor-banner{
     padding: 20px;
@@ -196,7 +196,12 @@ html{
     font-size: 30px;
     margin-bottom: 10px;
 }
-.sobremi button{
+.sobremi .contenido-seccion a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+}
+.download{
     cursor: pointer;
     background-color: transparent;
     border: 2px solid #fff;
@@ -209,7 +214,7 @@ html{
     position: relative;
     z-index: 10;
 }
-.sobremi button .overlay{
+.download .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -219,14 +224,14 @@ html{
     z-index: -1;
     transition: 1s;
 }
-.sobremi button:hover .overlay{
+.download:hover .overlay{
     width: 100%;
 }
 /* SECCION SKILLS */
 .skills{
     background-color: var(--back2);
     color: #fff;
-    padding: 50px 20px;
+    padding: 65px 20px;
 }
 .skills .contenido-seccion{
     max-width: 1100px;
@@ -415,7 +420,7 @@ html{
 .curriculum{
     background-color: var(--back);
     color: #fff;
-    padding: 50px 20px;
+    padding: 65px 20px;
 }
 .curriculum .contenido-seccion{
     max-width: 1100px;
@@ -534,7 +539,7 @@ html{
 .portafolio .galeria{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 .portafolio .galeria .proyecto{
     position: relative;
@@ -577,7 +582,7 @@ html{
     background-image: url(img/contact_bg.png);
     background-color: var(--back);
     color: #fff;
-    padding: 20px 0;
+    padding: 50px 0;
 }
 .contacto .contenido-seccion{
     max-width: 1100px;
@@ -710,4 +715,82 @@ footer .arriba{
     border-radius: 50%;
     line-height: 50px;
     font-size: 18px;
+}
+/* SECCION RESPONSIVE */
+
+@media screen and (max-width:980px) {
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+        position: fixed;
+        right: 5%;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0px;
+        top: 75px;
+        background-color: var(--back2) ;
+        width: 30%; 
+    }
+    nav.responsive ul{
+        display: block !important;
+    }
+    nav.responsive ul li {
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width:700px){
+    .sobremi .fila{
+        display: block;
+    }
+    .sobremi .fila .col{
+        width: fit-content;
+    }
+    .sobremi .fila .col .contenedor{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .skills .fila{
+        display: block;
+    }
+    .skills .fila .col{
+        width: 100%;
+    }
+    .skills .fila .col .barra-skill{
+        width: 100%;
+    }
+
+    .curriculum .fila{
+        display: block;
+    }
+    .curriculum .fila .col{
+        width: 90%;
+    }
+    .curriculum .fila .derecha{
+        margin-left: 20px;
+    }
+
+    .portafolio .galeria {
+        display: block;
+        width: 100%;
+        justify-content: center;
+    }
+    .portafolio .galeria .proyecto{
+        max-width: 100%;
+    }
+    .portafolio .galeria .proyecto img{
+        width: 100%;
+    }
+
+    .contacto .fila {
+        display: block;
+    }
+    .contacto .fila .col{
+        width: 100%;
+    }
 }
