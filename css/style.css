@@ -577,6 +577,24 @@ html{
 .portafolio .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
 }
+.portafolio .galeria .proyecto .overlay .redes a{
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 20px;
+    transition: .2s;
+    align-items: center;
+}
+.portafolio .galeria .proyecto .overlay .redes a:hover{
+    background-color: var(--back2);
+    transition: 1s;
+    transform: scale(1.1);
+}
 /* SECCION CONTACTO */
 .contacto{
     background-image: url(img/contact_bg.png);
@@ -717,7 +735,6 @@ footer .arriba{
     font-size: 18px;
 }
 /* SECCION RESPONSIVE */
-
 @media screen and (max-width:980px) {
     nav{
         display: none;
