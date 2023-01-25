@@ -410,11 +410,11 @@
                 <!-- Formulario -->
                 <div class="col">
                     <form action="https://formsubmit.co/jesusalva575@gmail.com" method="POST">
-                        <input type="text" name="Nombre" placeholder="Tú nombre">
-                        <input type="text" name="Teléfono" placeholder="Número telefónico">
-                        <input type="email" name="Correo" placeholder="Dirección de correo">
-                        <input type="text" name="Asunto" placeholder="Tema">
-                        <textarea name="Comentario" id="" cols="30" rows="10"></textarea>
+                        <input type="text" name="Nombre" placeholder="Tú nombre" required>
+                        <input type="text" name="Teléfono" placeholder="Número telefónico (+55)" required min="10">
+                        <input type="email" name="Correo" placeholder="Dirección de correo" required>
+                        <input type="text" name="Asunto" placeholder="Tema" required>
+                        <textarea name="Comentario" id="" cols="30" rows="10" required></textarea>
                         <button type="submit">
                             Enviar Mensaje <i class="fa-solid fa-paper-plane"></i>
                             <span class="overlay"></span>
