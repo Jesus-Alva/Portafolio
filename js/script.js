@@ -24,21 +24,23 @@ function efectoHabilidades(){
     if (distancia_skills >= 300) {
         let habilidades = document.getElementsByClassName("progreso");
         habilidades[0].classList.add("html");
-        habilidades[1].classList.add("php");
-        habilidades[2].classList.add("python");
-        habilidades[3].classList.add("javascript");
-        habilidades[4].classList.add("c");
-        habilidades[5].classList.add("laravel");
-        habilidades[6].classList.add("bootstrap");
-        habilidades[7].classList.add("angular");
-        habilidades[8].classList.add("argon");
-        habilidades[9].classList.add("vue");
-        habilidades[10].classList.add("node");
-        habilidades[11].classList.add("comunicacion");
-        habilidades[12].classList.add("team");
-        habilidades[13].classList.add("creatividad");
-        habilidades[14].classList.add("dedicacion");
-        habilidades[15].classList.add("pm");
+        habilidades[1].classList.add("css");
+        habilidades[2].classList.add("sass");
+        habilidades[3].classList.add("php");
+        habilidades[4].classList.add("python");
+        habilidades[5].classList.add("javascript");
+        habilidades[6].classList.add("c");
+        habilidades[7].classList.add("laravel");
+        habilidades[8].classList.add("bootstrap");
+        habilidades[9].classList.add("angular");
+        habilidades[10].classList.add("argon");
+        habilidades[11].classList.add("vue");
+        habilidades[12].classList.add("node");
+        habilidades[13].classList.add("comunicacion");
+        habilidades[14].classList.add("team");
+        habilidades[15].classList.add("creatividad");
+        habilidades[16].classList.add("dedicacion");
+        habilidades[17].classList.add("pm");
         
     }
 
