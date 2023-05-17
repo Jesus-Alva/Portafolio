@@ -295,6 +295,14 @@ html{
     0%{width:0%;}
     100%{width:75%}
 }
+.skills .skill .css{
+    width: 0%;
+    animation: 2s css forwards;
+}
+@keyframes css{
+    0%{width:0%;}
+    100%{width:60%}
+}
 .skills .skill .php{
     width: 0%;
     animation: 2s php forwards;
@@ -342,6 +350,14 @@ html{
 @keyframes bootstrap{
     0%{width:0%;}
     100%{width:70%}
+}
+.skills .skill .sass{
+    width: 0%;
+    animation: 2s sass forwards;
+}
+@keyframes sass {
+    0%{width:0%;}
+    100%{width:40%}
 }
 .skills .skill .angular{
     width: 0%;
