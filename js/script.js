@@ -37,12 +37,13 @@ function efectoHabilidades(){
         habilidades[10].classList.add("argon");
         habilidades[11].classList.add("vue");
         habilidades[12].classList.add("node");
+        habilidades[13].classList.add("react");
 
-        habilidades[13].classList.add("comunicacion");
-        habilidades[14].classList.add("team");
-        habilidades[15].classList.add("creatividad");
-        habilidades[16].classList.add("dedicacion");
-        habilidades[17].classList.add("pm");
+        habilidades[14].classList.add("comunicacion");
+        habilidades[15].classList.add("team");
+        habilidades[16].classList.add("creatividad");
+        habilidades[17].classList.add("dedicacion");
+        habilidades[18].classList.add("pm");
         
     }
 

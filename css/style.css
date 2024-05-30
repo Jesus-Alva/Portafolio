@@ -391,6 +391,14 @@ html{
     0%{width:0%;}
     100%{width:45%}
 }
+.skills .skill .react{
+    width: 0%;
+    animation: 2s react forwards;
+}
+@keyframes react{
+    0%{width:0%;}
+    100%{width:50%}
+}
 .skills .skill .comunicacion{
     width: 0%;
     animation: 2s comunicacion forwards;
